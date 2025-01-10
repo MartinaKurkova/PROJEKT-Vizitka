@@ -2,80 +2,64 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-.Eliska {
-    border-radius: 50%;
-    border: white 3px solid;
-    width: 150px;
-    position: absolute;
-    right: -75px;
-    top: -75px;
-}
-
 body {
-    font-family: "Nunito", sans-serif;
-    background-color: #b2bec3;
-    font-size: 18px;
-}
-
-.box {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px gray;
-    padding: 30px;
-    margin: 150px auto;
-    position: relative;
-    width: 550px;
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  background-color: lightgray;
 }
 
 h1 {
-    color: #d63031;
     font-size: 36px;
     font-weight: 700;
-    padding-bottom: 30px;
-    margin: 0;
+    color: #d63031;
+    margin: 0 0 30px 0;
+}
+
+.box {
+    width: 550px;
+    background-color: white;
+    margin-top: 150px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 150px auto;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: white 3px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: -75px;
+    right: -75px;
 }
 
 p {
-    padding-bottom: 30px;
+    padding: 0 0 30px 0;
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
 .twitter {
-    background-color: #1da1f2;
+    background-color: rgb(24, 153, 212);
     margin-bottom: 5px;
 }
 
-.twitter:hover {
-    background-color: #0b7bc1;
-}
-
 .facebook {
-    background-color: #3b5998;
+    background-color: rgb(28, 28, 124);
 }
-.facebook:hover {
-    background-color: #2b406e
-}
-
-a {
-    border-radius: 5px;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-}
-/*
-BARVY:
-šedá na pozadí stránky:		 #b2bec3
-červená na hlavní nadpis:  #d63031
-
-tlačítko Twitter:					 #1da1f2
-tlačítko Twitter aktivní:	 #0b7bc1
-
-tlačítko Facebook:				 #3b5998
-tlačítko Facebook aktivní: #2b406e
-*/
-
